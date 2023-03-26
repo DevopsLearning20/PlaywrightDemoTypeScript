@@ -7,7 +7,7 @@
     "tests:chrome":"playwright test --config=playwright.config.ts --project=Chromium --workers 1",
     "tests:firefox":"playwright test --config=playwright.config.ts --project=Firefox",
     "tests:webkit":"playwright test --config=playwright.config.ts --project=Webkit",
-    "tests:tags": "npx playwright test --grep @Test --workers=1 --project=Chromium"
+    "tests:tags": "npx playwright test --grep @Smoke --workers=1 --project=Chromium"
   },
   "keywords": [],
   "author": "",
